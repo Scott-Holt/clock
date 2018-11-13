@@ -1,0 +1,52 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('/Users/scottholt/Desktop/Scott Holt Portfolio/clock/images/space.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  // border:1px solid white;
+  // width:100px;
+  // height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .clock{
+    // width:50px;
+    // height:50px;
+    // border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle{
+    width:400px;
+    height:400px;
+    border:10px solid white;
+    border-radius:100%;
+    opacity:.6;
+    position:relative;
+  }
+
+  .hand {
+    height:5px;
+    width:170px;
+    background-color:white;
+    position:absolute;
+    top:50%;
+    left:10px;
+  }
+}
