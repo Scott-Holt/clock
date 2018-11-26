@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url("/Users/scottholt/Desktop/Scott Holt Portfolio/clock/images/space.jpg");
+  background-image: url("/Users/scottholt/Desktop/Portfolio/clock/images/space.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,16 +24,23 @@ main {
   main .circle {
     width: 400px;
     height: 400px;
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 100%;
-    opacity: .6;
+    opacity: .8;
     position: relative; }
   main .hand {
-    height: 5px;
-    width: 170px;
-    background-color: white;
+    width: 45%;
+    height: 6px;
+    background-color: black;
     position: absolute;
-    top: 50%;
-    left: 10px; }
+    top: 48%;
+    right: 196px;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); }
+  main .second {
+    background-color: red;
+    height: 3px; }
 
 /*# sourceMappingURL=main.css.map */
